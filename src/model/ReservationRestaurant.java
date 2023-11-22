@@ -11,6 +11,7 @@ public class ReservationRestaurant extends Reservation {
 		
 	}
 	
+
 	public String toString() {
 		return super.toString()+"Table "+ noTable + " pour le " +noService + " service.";
 	}

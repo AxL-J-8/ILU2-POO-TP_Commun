@@ -7,7 +7,6 @@ public abstract class Formulaire {
  public Formulaire(int jour ,int mois,int noEntite) {
 	 this.jour=jour;
 	 this.mois=mois;
-	 this.noEntite=noEntite;
  }
 public int getJour() {
 	return jour;
